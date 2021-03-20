@@ -1,0 +1,44 @@
+.x{
+    margin-top: 20px;
+    min-height: 100vh;
+}
+nav{
+    justify-content: space-between;
+      border: 2px;
+    background-color: transparent;
+    
+    
+}
+
+ ul{
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    color: #fff;
+    content: "";
+    
+    border: 2px ;
+    
+    
+    /* clear: both; */
+} a{
+    color: #000;;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+#a{
+    font: 350px  ;
+    box-sizing: border-box;
+    margin: 0em;
+    font-weight: inherit;
+    font-size: inherit;
+    list-style: none;
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    
+}

@@ -1,0 +1,29 @@
+<div class="container pt-5">
+  <div class="row justify-content-sm-center">
+      <div class="col-sm-6 shadow round pb-3">
+          <h1 class="text-center pt-3 text-secondary">Connection</h1>
+          
+              <form>
+              <div class="form-group">
+                  <label  class="col-form-label">Utilisateur</label>
+<!-- <form [formGroup]="exform"> -->                  <input formControlName="util" type="text" class="form-control">
+                  <!-- <small *ngIf="exform.get('util').invalid && exform.get('util').touched" class="text-danger">remplisser le nom</small> -->
+              </div>
+              
+              <div class="form-group">
+                  <label  class="col-form-label">Mot de passe</label>
+                  <input formControlName="mdp" type="number" class="form-control">
+                  <!-- <small *ngIf="exform.get('mdp').invalid && exform.get('mdp').touched" class="text-danger">remplisser le contact</small> -->
+              </div>
+              
+              <div class="form-group center">
+                  <br>
+                  <br>
+                  <button class="btn btn-outline-success w-25">Connecter</button>
+              </div>
+          </form>
+      </div>
+  </div>
+  
+</div>
+

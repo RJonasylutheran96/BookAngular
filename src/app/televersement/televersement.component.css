@@ -1,0 +1,31 @@
+form{
+    height: 100vh;
+}
+.form-control.ng-touched.ng-invalid{
+    border: 1px solid red;
+}
+.form-control.ng-touched.ng-valid{
+    border: 1px solid green;
+}
+/* div .container{
+    
+    width: 500px;
+    box-shadow:  4px;
+    transform: translate(50%, 50%);
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+form{
+    background-color: rgba(0, 0, 0, 0.02);
+     margin: 2px 3px 3px 2px;
+    padding: 2px 3px 3px 2px; 
+} 
+label{
+
+}
+input{
+    padding: 5px 3px 3px 5px;
+    width: 450px;
+}
+button{
+text-align: center;
+} */

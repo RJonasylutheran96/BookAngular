@@ -1,0 +1,96 @@
+<div class="container pt-5">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-6 shadow round pb-3">
+            <h1 class="text-center pt-3 text-secondary">Téléversement</h1>
+            <!-- <form [formGroup]="exform"> -->
+                <form action="">
+                <div class="form-group">
+                    <label  class="col-form-label">Nom</label>
+                    <input formControlName="nom" type="text" class="form-control">
+                    <!-- <small *ngIf="exform.get('nom').invalid && exform.get('nom').touched" class="text-danger">remplisser le nom</small> -->
+                </div>
+                <div class="form-group">
+                    <label  class="col-form-label">Mail</label>
+                    <input  formControlName="mail" type="text" class="form-control" name="mail">
+                    <!-- <small *ngIf="exform.get('mail').invalid && exform.get('mail').touched" class="text-danger">remplisser l'adresse mail</small> -->
+                </div>
+                <div class="form-group">
+                    <label  class="col-form-label">Contact</label>
+                    <input formControlName="contact" type="number" class="form-control">
+                    <!-- <small *ngIf="exform.get('contact').invalid && exform.get('contact').touched" class="text-danger">remplisser le contact</small> -->
+                </div>
+                <div class="form-group">
+                    <label  class="col-form-label">N° Compte Bancaire</label>
+                    <input formControlName="compte" type="text" class="form-control">
+                    <!-- <small *ngIf="exform.get('compte').invalid && exform.get('compte').touched" class="text-danger">Ecrire votre compte</small> -->
+                </div>
+                <div class="form-group">
+                    <label  class="col-form-label">Type de fichier</label>
+                    <select formControlName="typ_fic" class="form-control bg-input-danger d-block w-100" name="typ_fic">
+                        <option value="livre">Livre</option>
+                        <option value="video">Video</option>
+                        <option value="pdf">Pdf</option>
+                        <option value="image">Image</option>
+                        <option value="autre">Autres Fichier</option>
+
+                      </select>
+                </div>
+                <!-- <div class="form-group">
+                    <label  class="col-form-label"></label>
+                    <select formControlName="nom" class="form-control bg-input-danger d-block w-100" name="poste">
+                        <option>Livre</option>
+                        <option>Video</option>
+                        <option>Pdf</option>
+                        <option>Image</option>
+                      </select>
+                </div> -->
+                <div class="form-group">
+                    <label  class="col-form-label">Fichier</label>
+                    <input formControlName="fichier" type="file" class="form-control">
+                    <!-- <small *ngIf="exform.get('fichier').invalid && exform.get('fichier').touched" class="text-danger">Inserer Votre Fichier</small> -->
+                </div>
+                <div class="form-group">
+                    <br>
+                    <br>
+                    <!-- <button class="btn btn-outline-success" (click)="ajout()">Televerser</button> -->
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</div>
+
+    <!-- <div class="container  mt-lg-4">
+        <div class="row pt-5">
+            <div class="col-md-6 mx-auto"> 
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Ajouter des Livres</h3>
+                    </div>
+                    <div class="card-body">
+                        <form class="shadow-lg p-3 mb-5 mt-lg-4 bg-white rounded align-middle">
+                            <h2 class="text-center text-justify"></h2>
+                            <div class="form-floating mb-3">
+                                <label for="floatingInput">Titre Livre</label>
+                                <input type="text" class="form-control" ngModel name="titre" id="floatingInput" placeholder="titre" >
+                            </div>
+                            <div class="form-floating mb-3">
+                                <label for="floatingInput">Nom Agent</label>
+                                <input type="text" class="form-control"ngModel name="nom_ag" id="floatingInput" placeholder="Votre adresse" >
+                            </div>
+                              <div class="form-floating">
+                                <label for="floatingPassword">Date d'Insertion</label>
+                                <input type="date"  class="form-control"ngModel name="date_ins" id="floatingPassword" placeholder="date" > 
+                              </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button"  class="btn text-lg-center btn-outline-secondary w-75 mt-lg-4">Ajouter</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+</div>  -->
+
+
+<p>addlivres works!</p>

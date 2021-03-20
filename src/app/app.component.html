@@ -1,0 +1,55 @@
+
+<header>
+  <nav class="navbar navbar-expand-lg  fixed-top bottom-5 mb-3">
+    <img src="assets/jo.jpg" alt="..." class="rounded-circle" width="80px">
+    <a class="navbar-brand"  href="#">Les<span>Document</span></a>
+        <ul class="nav justify-content-center nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Acceuil</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-link dropdown" data-toggle="dropdown">
+              Livres
+            </a>
+            <div class="dropdown-menu">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/televersement">Hebergement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/livres">Listes</a>
+              </li>
+          </div>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/autre">Autres</a>
+          </li>
+          
+        <li class="dropdown">
+          <a href="#" class="nav-link dropdown" data-toggle="dropdown">
+            Information
+          </a>
+          <div class="dropdown-menu">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/agent">Agent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/livres">Livres</a>
+            </li>
+        </div>
+      </li>
+
+        </ul>
+          <ul id="a" class=" nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/connection">Connection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/addlivres"><i class="fa fa-sign-in mr-1"></i></a>
+            </li>
+        </ul> 
+  </nav>
+  <br>
+</header>
+<br>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

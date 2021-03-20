@@ -1,0 +1,18 @@
+div{
+    background-color: rgba(64, 67, 77, 0.9);
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    font-size: 1.3rem;
+}
+ul,h3{
+    text-decoration: none;
+    color:#fff;
+   
+    text-align: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
